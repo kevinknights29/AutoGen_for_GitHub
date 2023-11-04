@@ -30,7 +30,7 @@ def get_issues(owner: str = OWNER, repo: str = REPO) -> dict:
     """
 
     request = requests.get(
-        url=f"{API_BASE_URL}/{owner}/{repo}/issues",
+        url=f"{API_BASE_URL}/repos/{owner}/{repo}/issues",
         headers={"Authorization": f"Bearer {AUTH_TOKEN}", "Accept": "application/vnd.github+json"},
     )
     return request.json()
