@@ -35,6 +35,8 @@ When I create an issue in a given GitHub repo, AutoGen should be initiated and g
 
 The code generated should be submitted through a Pull Request, given me the final vote of approval.
 
+The repo that will be used as a target is: [AutoGen for GitHub Playground](https://github.com/kevinknights29/AutoGen_for_GitHub_Playground).
+
 ## System Design
 
 ### Process Flow
